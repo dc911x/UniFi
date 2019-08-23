@@ -10,11 +10,10 @@ This script makes use of rclone and installs it but you need to manually go thro
 
 Please read up on [Rclone](https://rclone.org)
 
-## Rclone config
-
-**TIPS:**
+## Rclone config tips
 
 [Rclone](https://rclone.org)
+
 [Configuring rclone on a remote / headless machine](https://rclone.org/remote_setup/)
 
 ----------------
