@@ -8,7 +8,7 @@ UniFi scripts and other goodies
 
 This script makes use of rclone and installs it but you need to manually go through the "rclone config" steps in the setup. There are many different sorts of cloudstorage providers provided in the rclone config. While many use the same settings some require additional steps especially on headless machines.
 
-Please read up on [Rclone](https://rclone.org).
+Please read up on [Rclone](https://rclone.org) and choose your cloud storage platform.
 
 ## Rclone config tips
 
