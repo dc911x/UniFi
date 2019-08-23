@@ -2,15 +2,15 @@
 
 UniFi scripts and other goodies
 
-#Back-up your UniFi autobackup file
+# Back-up your UniFi autobackup file
 
-##Before you start
+## Before you start
 
 This script makes use of rclone and installs it but you need to manually go through the "rclone config" steps in the setup. There are many different sorts of cloudstorage providers provided in the rclone config. While many use the same settings some require additional steps especially on headless machines.
 
 Please read up on [Rclone][https://rclone.org]
 
-##Rclone config
+## Rclone config
 
 **TIPS:**
 
