@@ -8,14 +8,14 @@ UniFi scripts and other goodies
 
 This script makes use of rclone and installs it but you need to manually go through the "rclone config" steps in the setup. There are many different sorts of cloudstorage providers provided in the rclone config. While many use the same settings some require additional steps especially on headless machines.
 
-Please read up on [Rclone][https://rclone.org]
+Please read up on [Rclone](https://rclone.org)
 
 ## Rclone config
 
 **TIPS:**
 
-[Rclone][https://rclone.org]
-[Configuring rclone on a remote / headless machine][https://rclone.org/remote_setup/]
+[Rclone](https://rclone.org)
+[Configuring rclone on a remote / headless machine](https://rclone.org/remote_setup/)
 
 ----------------
 
@@ -48,8 +48,8 @@ Always use `/` even when on Windows.
 
 ## Unifi Backup Setup (unifi_backup_setup.sh)
 
-`sudo wget https://raw.githubusercontent.com/dc911x/UniFi/master/unifi_backup_setup.sh -O /usr/local/bin/unifi_backup_setup.sh
-sudo chmod +x /usr/local/bin/unifi_backup_setup.sh`
+`sudo wget https://raw.githubusercontent.com/dc911x/UniFi/master/unifi_backup_setup.sh -O /usr/local/bin/unifi_backup_setup.sh`
+`sudo chmod +x /usr/local/bin/unifi_backup_setup.sh`
 
 Run the script:
 
