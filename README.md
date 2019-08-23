@@ -8,7 +8,7 @@ UniFi scripts and other goodies
 
 This script makes use of rclone and installs it but you need to manually go through the "rclone config" steps in the setup. There are many different sorts of cloudstorage providers provided in the rclone config. While many use the same settings some require additional steps especially on headless machines.
 
-Please read up on [Rclone](https://rclone.org)
+Please read up on [Rclone](https://rclone.org).
 
 ## Rclone config tips
 
@@ -33,7 +33,7 @@ So if you name your connector OneDrive it will be
 
 If you name it UniFi-Backup it will be
 
-`rclone lsd UniFi-Backup`
+`rclone lsd UniFi-Backup:`
 
 That seems one of the biggest misconceptions from new users when using rclone and reading the docs.
 
@@ -48,6 +48,7 @@ Always use `/` even when on Windows.
 ## Unifi Backup Setup (unifi_backup_setup.sh)
 
 `sudo wget https://raw.githubusercontent.com/dc911x/UniFi/master/unifi_backup_setup.sh -O /usr/local/bin/unifi_backup_setup.sh`
+
 `sudo chmod +x /usr/local/bin/unifi_backup_setup.sh`
 
 Run the script:
@@ -59,5 +60,7 @@ Run the script:
 After running the setup edit unifi_backup.sh with your favorite editor and add the correct remote from Rclone and path where you want to save the .unf file.
 
 `sudo nano -w /usr/local/bin/unifi_backup.sh`
+
+exit by using "Ctrl + X" and Yes
 
 **That's all folks!**
